@@ -55,6 +55,17 @@ app.controller('DisplayController',['$scope',function($scope){
   
   }
   
+  $scope.showContact = function(){
+  if($scope.activeTab ==4 ){
+   return true;
+   }
+   else{
+   return false;
+   }
+  
+  
+  };
+  
   
 }]);
 
@@ -80,4 +91,11 @@ app.directive('videoPage', function(){
   templateUrl: '/views/sign-up.html'
  };
 
+ });
+ 
+ app.directive('contactPage', function(){
+ return {
+  restrict: 'E',
+  templateUrl: '/views/contact-page.html'
+ };
  });

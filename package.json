@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Messing around with videos and Angular",
   "dependencies": {
+    "binaryjs": "^0.2.1",
     "express": "^4.10.4"
   }
 }

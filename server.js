@@ -1,4 +1,7 @@
 var express = require('express');
+var http = require('http');
+var BinaryServer = require('binaryjs').BinaryServer
+binaryServer = BinaryServer({port: 9000});
 
 var app = express();
 
